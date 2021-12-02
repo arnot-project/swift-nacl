@@ -1,8 +1,8 @@
-# NaCL
+# NaCl
 
 ## Overview
 
-This Swift Package is a wrapper of NaCl library[1] written in C. 
+This Swift Package is a wrapper of NaCl library[1] written in C.
 It exposes a function that extracts a public key from a private key using ed25519.
 The C files implementing the ed25519 are based on work of Brian Warner[2][3].
 We removed files that were not needed and we created a method to calculate a public key from a private key by using the existing c functions.
